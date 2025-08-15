@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/cardview_compat_inset_shadow"
+    android:paddingLeft="@dimen/cardview_compat_inset_shadow"
+    android:paddingRight="@dimen/cardview_compat_inset_shadow"
+    android:paddingTop="@dimen/cardview_compat_inset_shadow"
+    tools:context=".MainActivity" >
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FFFF00"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
