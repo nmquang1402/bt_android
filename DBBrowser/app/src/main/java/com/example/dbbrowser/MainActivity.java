@@ -40,8 +40,7 @@ public class MainActivity extends AppCompatActivity {
         // Tạo ListView
         lv = findViewById(R.id.lv);
         mylist = new ArrayList<>();
-        myadapter = new ArrayAdapter<>(MainActivity.this,
-                android.R.layout.simple_list_item_1, mylist);
+        myadapter = new ArrayAdapter<>(MainActivity.this, android.R.layout.simple_list_item_1, mylist);
         lv.setAdapter(myadapter);
         // Truy vấn CSDL và cập nhật hiển thị lên Listview
         Cursor c = database.query("tbsach",null,null,null,null,null,null);
